@@ -113,15 +113,15 @@ git push
 
 #### Sync Error
 If you see:
-```bash
+```
 error: RPC failed; HTTP 400
 ```
-Fix it:
-```bash
+Open a new terminal in VS Code then enter the following commands:
+```
 git config http.postBuffer 524288000
 ```
 If needed, reset your name and email:
-```bash
+```
 git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 ```
