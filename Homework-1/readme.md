@@ -177,9 +177,7 @@ Use `printf()`to output text.
 
 Code Block:
 ```
-```
-three backticks
-```
+```three backticks```
 ```
 
 #### Tables
