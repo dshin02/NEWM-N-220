@@ -2,7 +2,7 @@
 
 ## Websites vs Web Applications
 
-This canvas page explained the key differences between websites and web applications, focusing on their purposes, interactions, and examples.
+The canvas page explained the key differences between websites and web applications, focusing on their purposes, interactions, and examples.
 
 Websites are designed to share information and are simple, focusing on browsing and reading content, such as news sites or blogs. In contrast, web apps are interactive and task-oriented, allowing people to perform actions like editing documents or shopping online. Simply put, websites inform, while web apps engage.
 
@@ -31,7 +31,7 @@ Web apps are interactive tools designed for tasks and personalized experiences. 
 
 ## VS Code & Extensions
 
-This canvas page explained how to set up Visual Studio Code (VS Code) for local development.
+The canvas page explained how to set up Visual Studio Code (VS Code) for local development.
 
 To set up Visual Studio Code for local development, begin by downloading and installing it from the official website. Once installed, add essential extensions like Prettier, Live Server, and Auto Rename Tag by clicking the "Extensions" icon in the left menu, searching for these tools, and installing them. Extensions such as Code Spell Checker or vscode-pets are not required for this course.
 
@@ -130,4 +130,69 @@ git config --global user.email "your.email@example.com"
 
 ## Markdown & Documentation
 
-Brief description of understanding. Use any combination of markdown techniques. Should be more than 2 sentences.
+The canvas page explains what Markdown is, its basic syntax rules, and why it is important.     
+
+Markdown is a simple way to format text using special symbols like # for headings, - for lists, and []() for links. It allows you to create clean, structured documents without complex HTML. Common formatting includes bold (**bold**), italics (_italic_), and links ([Google](https://www.google.com)). Markdown is widely used on platforms like GitHub and Reddit because it's easy to use and makes content look good without extra effort.
+
+### What is Markdown?
+Markdown is a simple language to format text for conversion to HTML. It uses symbols like `#` for headings, `**` for bold, and `*` for italics to make text easy to read and style without complex HTML.
+
+### Why is Markdown Important?
+Markdown is widely used for documentation, blogs, and forums due to its simplicity and human-readable syntax. Many platforms like GitHub and Reddit support it for quick and effective content creation.
+
+### Markdown Syntax
+
+#### Headings
+Use `#` for headings:
+
+```markdown
+# Heading 1
+## Heading 2
+### Heading 3
+```
+
+#### Bold and Italics
+**Bold**: `**text**`  
+Italic-: `-text-`
+
+#### Lists
+- Unordered: `- item`  
+1. Ordered: `1. item`
+
+#### Links
+```
+[Link text](https://example.com)
+```
+
+#### Images
+```
+![Alt text](https://picsum.photos/100/100)
+```
+
+#### Code
+Inline: `` `code` ``  
+Block:
+```
+```
+Code block
+```
+```
+
+#### Tables
+```
+| Column 1 | Column 2 |
+|----------|----------|
+| Data 1   | Data 2   |
+```
+
+#### Blockquotes
+Use `>`:
+```
+> This is a quote.
+```
+
+### Horizontal Rules
+Use `---`, `***`, or `___`:
+```
+---
+```
