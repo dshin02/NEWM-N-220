@@ -145,7 +145,7 @@ Markdown is widely used for documentation, blogs, and forums due to its simplici
 #### Headings
 Use `#` for headings:
 
-```markdown
+```
 # Heading 1
 ## Heading 2
 ### Heading 3
