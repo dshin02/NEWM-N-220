@@ -170,17 +170,12 @@ _Italic_: `_text_`
 ```
 
 #### Code
-Inline: `` `code` ``  
-Block:
-```markdown
-```
-Code block
-```
-```
+Inline Code: Use `` `printf()` ``to output text.
 
-Inline Code: Use `printf()` to output text.
-
-Code Block: ```markdown```
+Code Block: 
+```
+markdown
+```
 
 #### Tables
 ```
