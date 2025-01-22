@@ -75,14 +75,14 @@ To start using Git and GitHub, first install Git on your computer. Windows users
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
    ```
 2. Install Git:
-   ```bash
+   ```
    brew install git
    ```
 
 ### Set Up Git in VS Code
 1. Open the terminal in VS Code.
 2. Set your name and email:
-   ```bash
+   ```
    git config --global user.name "Your Name"
    git config --global user.email "your.email@example.com"
    ```
@@ -90,21 +90,21 @@ To start using Git and GitHub, first install Git on your computer. Windows users
 
 #### Save Changes
 Add a message to your changes:
-```bash
+```
 git commit -m "Your message"
 ```
 
 #### Publish Your Work
 1. Create a GitHub repository and copy its HTTPS link.
 2. Connect and upload:
-   ```bash
+   ```
    git remote add origin https://github.com/username/repo.git
    git push --set-upstream origin main
    ```
 
 #### Sync Code
 Download and upload changes:
-```bash
+```
 git pull
 git push
 ```
