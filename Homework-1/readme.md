@@ -172,12 +172,14 @@ _Italic_: `_text_`
 #### Code
 Inline Code:
 ```
-Use `` `printf()` ``to output text.
+Use `printf()`to output text.
 ```
 
 Code Block:
 ```
+```
 three backticks
+```
 ```
 
 #### Tables
