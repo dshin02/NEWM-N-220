@@ -174,7 +174,7 @@ Inline Code: Use `` `printf()` ``to output text.
 
 Code Block: 
 ```
-markdown
+three backticks
 ```
 
 #### Tables
