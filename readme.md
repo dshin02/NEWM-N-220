@@ -4,4 +4,4 @@
 
 2. [Homework 2](./homework-2)
 
-Base URL: https://dshin02.github.io/NEWM-N-220
+Base URL: https://dshin02.github.io/NEWM-N-220/
