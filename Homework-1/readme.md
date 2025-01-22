@@ -4,8 +4,6 @@
 
 This canvas page explained the key differences between websites and web applications, focusing on their purposes, interactions, and examples.
 
----
-
 ### Websites
 Websites provide information for users to view or browse. They are simple and focus on delivering content.
 
@@ -31,8 +29,25 @@ Web apps are interactive tools designed for tasks and personalized experiences. 
 
 ## VS Code & Extensions
 
+This canvas page explained how to set up Visual Studio Code (VS Code) for local development.
 
-Brief description of understanding. Use any combination of markdown techniques. Should be more than 2 sentences.
+### VS Code Installation
+Start by downloading and installing [Visual Studio Code](https://code.visualstudio.com/).
+
+#### VS Code Extensions
+Install the following extensions for this course:
+
+- **Prettier**
+- **Live Server**
+- **Auto Rename Tag**
+
+#### Extensions Not Required
+- Code Spell Checker
+- vscode-pets
+
+To install extensions:
+1. Click the **Extensions** icon on the left menu.
+2. Search for the required extensions and click **Install**.
 
 ## Version Control, Git, & GitHub
 
