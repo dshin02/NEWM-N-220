@@ -153,7 +153,7 @@ Use `#` for headings:
 
 #### Bold and Italics
 **Bold**: `**text**`  
-Italic-: `-text-`
+_Italic_: `_text_`
 
 #### Lists
 - Unordered: `- item`  
@@ -170,13 +170,8 @@ Italic-: `-text-`
 ```
 
 #### Code
-Inline: `` `code` ``  
-Block:
-```
-```
-Code block
-```
-```
+Inline Code: `` Use `printf()` to output text. `` 
+Code Block: ```markdown```
 
 #### Tables
 ```
@@ -188,7 +183,7 @@ Code block
 #### Blockquotes
 Use `>`:
 ```
-> This is a quote.
+> This is a blockquote.
 ```
 
 ### Horizontal Rules
