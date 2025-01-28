@@ -1,7 +1,7 @@
 # Assignment 2: Working Scripts
 
 ## Week 2 Lecture
-This assignment demonstrates the implementation of inline and external JavaScript scripts, as well as the use of the browser console for debugging and interaction.
+This week we learned the implementation of inline and external JavaScript scripts, as well as the use of the browser console for debugging and interaction.
 
 ## Weekly Recap
 ### Key Takeaways
