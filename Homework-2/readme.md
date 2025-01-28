@@ -10,7 +10,7 @@ This week we learned the implementation of inline and external JavaScript script
    - Different shortcuts for opening DevTools across browsers (e.g., `Ctrl + Option + C` for Safari).
 
 2. **Data Types**:
-   - Commonly used: `String` ("This is an example), `Number`(12, 21), and `Boolean`(true).
+   - Commonly used: `String` ("This is an example"), `Number`(12, 21), and `Boolean`(true).
    - Strings are enclosed in quotes, numbers are used for calculations, and booleans are used for logic.
 
 3. **Scripts**:
