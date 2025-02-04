@@ -33,7 +33,7 @@ console.log("String of 5:", typeof String(5), typeof 5);
 
 let myAddress = "1234";
 
-// myAdress = myAdress + "Peach"
+// myAddress = myAddress + "Peach"
 myAddress += " Peach" + " St";
 
 console.log("My address is", myAddress);
