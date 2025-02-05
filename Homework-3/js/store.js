@@ -7,11 +7,11 @@ const salesTaxRate = 0.07;  // Sales tax rate, also constant as it doesn't chang
 
 const discountRate = 0.10;  // Discount rate, remains constant.
 
-let totalAfterTax;  // Declared as 'let' because we will assign and change its value.
+let totalAfterTax;  // let because we will assign and change its value.
 
-let discountedTotalAfterTax;  // Declared as 'let' for similar reasons as totalAfterTax.
+let discountedTotalAfterTax;  // let for similar reasons as totalAfterTax.
 
-let isEligibleForDiscount = price > 50;  // Boolean variable to check if the item is eligible for a discount. Declared with 'let' since it could change in a future context.
+let isEligibleForDiscount = price > 50;  // Boolean variable to check if the item is eligible for a discount. let since it could change in a future context.
 
 totalAfterTax = price * (1 + salesTaxRate);  
 
