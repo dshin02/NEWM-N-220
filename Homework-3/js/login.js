@@ -2,7 +2,7 @@ const password = "(d0nteatTheScript)"; // Constant because password does not cha
 
 const startsWithSpace = password.startsWith(" ");
 
-const isLongEnough = password.length >= 8;
+const isLongEnough = password.length >= 8; // Had to look up greater than or equal to operator
 
 const containsEat = password.includes("eat");
 
