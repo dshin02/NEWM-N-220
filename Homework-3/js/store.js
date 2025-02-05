@@ -8,7 +8,7 @@ const totalAfterTax = itemPrice * (1 + salesTax);
 
 const qualifiesForDiscount = itemPrice > 50;
 
-const discountedTotalAfterTax = totalAfterTax * (qualifiesForDiscount * (1 - discountRate) + !qualifiesForDiscount);
+const discountedTotalAfterTax = itemPrice * (1 + salesTax) * (qualifiesForDiscount * (1 - discountRate) + !qualifiesForDiscount);
 
 console.log("Total After Tax: " + totalAfterTax);
 
