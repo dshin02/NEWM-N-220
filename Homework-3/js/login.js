@@ -1,12 +1,13 @@
 // Using const (Preferred for constant values)
+// Using let (Preferred for variable changes)
 
-const password = "(d0nteatTheScript)"; // Constant because password does not change
+const password = "(d0nteatTheScript)"; // Constant because password does not change.
 
-const startsWithSpace = password.startsWith(" ");
+const startsWithSpace = password.startsWith(" "); // Constant because password does not change.
 
-const isLongEnough = password.length >= 8; // Had to look up greater than or equal to operator
+const isLongEnough = password.slice(7) !== ""; // Constant because password does not change.
 
-const containsEat = password.includes("eat");
+const containsEat = password.includes("eat"); // Constant because password does not change.
 
 console.log("Starts with space: " + startsWithSpace);
 

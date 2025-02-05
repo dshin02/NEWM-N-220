@@ -1,19 +1,26 @@
 // Using const (Preferred for constant values)
+// Using let (Preferred for variable changes)
 
-const itemPrice = 40.99; // Constant as item price does not change
+const price = 40.99;  // Item price, declared as 'const' since the price is fixed and doesn't change during execution.
 
-const salesTax = 0.07;
+const salesTaxRate = 0.07;  // Sales tax rate, also constant as it doesn't change.
 
-const discountRate = 0.10;
+const discountRate = 0.10;  // Discount rate, remains constant.
 
-const totalAfterTax = itemPrice * (1 + salesTax);
+let totalAfterTax;  // Declared as 'let' because we will assign and change its value.
 
-const qualifiesForDiscount = itemPrice > 50;
+let discountedTotalAfterTax;  // Declared as 'let' for similar reasons as totalAfterTax.
 
-const discountedTotalAfterTax = itemPrice * (1 + salesTax) * (qualifiesForDiscount * (1 - discountRate) + !qualifiesForDiscount);
+let isEligibleForDiscount = price > 50;  // Boolean variable to check if the item is eligible for a discount. Declared with 'let' since it could change in a future context.
 
-console.log("Total After Tax: " + totalAfterTax);
+totalAfterTax = price * (1 + salesTaxRate);  
 
-console.log("Qualifies for Discount: " + qualifiesForDiscount);
+discountedTotalAfterTax = price * (1 + salesTaxRate) * (1 - discountRate);
 
-console.log("Discounted Total After Tax: " + discountedTotalAfterTax);
+discountedTotalAfterTax = isEligibleForDiscount * discountedTotalAfterTax + !isEligibleForDiscount * totalAfterTax;
+
+console.log("Total after tax: $" + totalAfterTax);  
+
+console.log("Discount eligibility: " + isEligibleForDiscount);  
+
+console.log("Discounted total after tax: $" + discountedTotalAfterTax);
