@@ -1,3 +1,5 @@
+// Using const (Preferred for constant values)
+
 const password = "(d0nteatTheScript)"; // Constant because password does not change
 
 const startsWithSpace = password.startsWith(" ");

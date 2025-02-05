@@ -1,3 +1,5 @@
+// Using const (Preferred for constant values)
+
 const itemPrice = 40.99; // Constant as item price does not change
 
 const salesTax = 0.07;
