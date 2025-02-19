@@ -6,9 +6,12 @@ const photos = [
 ];
 
 const gallerySection = document.getElementById("gallery-section");
+console.log("Gallery section:", gallerySection);
 
 let galleryImages = "";
 for (let i = 0; i < photos.length; i++) {
     galleryImages += "<img src=\"" + photos[i] + "\" alt=\"Image " + (i + 1) + "\" height=\"300\">";
+    console.log("Added image:", photos[i]);
 }
 gallerySection.innerHTML = galleryImages;
+console.log("Gallery images added:", gallerySection.innerHTML);
