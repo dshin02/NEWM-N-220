@@ -5,7 +5,7 @@ const photos = [
     "images/804-300-400.jpg"
 ];
 
-const gallerySection = document.getElementById("gallery-section");
+const gallerySection = document.getElementById("photo-gallery");
 console.log("Gallery section:", gallerySection);
 
 let galleryImages = "";
