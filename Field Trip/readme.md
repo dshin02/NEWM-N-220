@@ -28,7 +28,7 @@ The website will use multimedia, interactive elements, and educational games to 
    - Displays immediate feedback and scoring.
    - Option to retake or share results.
 
-5. **Dig Site Game (Optional Enhancement)**
+5. **Dig Site Game**
    - A mini-game simulating a fossil excavation.
    - Players “brush” away dirt and uncover bone pieces.
    - Educational tips are revealed as bones are found.
